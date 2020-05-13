@@ -3,6 +3,9 @@
 .navbar {
   background-color: rgb(36, 36, 36) !important;
 }
+#toggle-icon {
+  background-color: white;
+}
 
 .navbar-link {
   font-size: 2rem;
@@ -18,17 +21,25 @@
   letter-spacing: -1px;
   font-weight: bold;
 }
-#home-container {
-  margin-top: 20px;
-  color: white;
-}
+// #text-box {
+//   margin-top: px;
+//   color: white;
+// }
 
-.jumbotron {
+// .jumbotron {
+//   background-image: asset-url("jumbotron.jpg");
+//   background-position: center center;
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   height: 500px;
+// }
+#full-page-image {
+  height: 100vh;
+  min-height: 500px;
   background-image: asset-url("jumbotron.jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
   background-size: cover;
-  height: 350px;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 html,
 body {
@@ -37,7 +48,6 @@ body {
 
 #page-content {
   flex: 1 0 auto;
-  background-color: lightgrey;
 }
 
 #sticky-footer {
